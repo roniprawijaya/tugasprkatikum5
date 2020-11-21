@@ -1,0 +1,46 @@
+body {
+    background: rgb(60, 94, 94);
+    width: 245px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tulisan_tukar {
+    text-align: center;
+    /*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.kotak_tukar {
+    width: 350px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+label {
+    font-size: 11pt;
+}
+
+.form_tukar {
+    /*membuat lebar form penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol_tukar {
+    background: #46de4b;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
